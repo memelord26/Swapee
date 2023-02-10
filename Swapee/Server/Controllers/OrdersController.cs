@@ -32,7 +32,7 @@ namespace Swapee.Server.Controllers
         public async Task<ActionResult> GetOrders()
         {
             //return await _context.Orders.ToListAsync();
-            var orders = await _unitOfWork.Orders.GetAll();
+            var orders = await _unitOfWork.Orders.GetAll(includes: q => q.Include(x => x.Buyer).Include(x => x.Product));
             return Ok(orders);
         }
 

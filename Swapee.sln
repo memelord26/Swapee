@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapee.Server", "Swapee\Server\Swapee.Server.csproj", "{71614713-2D7B-4C3A-8BDA-9B08F2592FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swapee.Server", "Swapee\Server\Swapee.Server.csproj", "{71614713-2D7B-4C3A-8BDA-9B08F2592FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapee.Client", "Swapee\Client\Swapee.Client.csproj", "{29B6FBF5-5503-4FAA-A914-DAB5F05D53E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swapee.Client", "Swapee\Client\Swapee.Client.csproj", "{29B6FBF5-5503-4FAA-A914-DAB5F05D53E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapee.Shared", "Swapee\Shared\Swapee.Shared.csproj", "{761A2E0B-04F3-4D00-A8B6-2B5806DFA339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swapee.Shared", "Swapee\Shared\Swapee.Shared.csproj", "{761A2E0B-04F3-4D00-A8B6-2B5806DFA339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
