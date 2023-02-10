@@ -8,7 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Swapee.Server.Data;
+using Swapee.Server.IRepository;
 using Swapee.Server.Models;
+using Swapee.Server.Repository;
 using System.Linq;
 
 namespace Swapee.Server
@@ -40,6 +42,8 @@ namespace Swapee.Server
 
             services.AddAuthentication()
                 .AddIdentityServerJwt();
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
